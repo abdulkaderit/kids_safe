@@ -14,22 +14,7 @@ class _LoginScreenState extends State<LoginScreen> {
   final TextEditingController nameController = TextEditingController();
   final TextEditingController ageController = TextEditingController();
   final TextEditingController salaryController = TextEditingController();
-  // String? errorMessage;
-
-  // Future<void> login() async{
-  //   try {
-  //     UserCredential userCredential= await _auth.signInWithEmailAndPassword(
-  //         email:emailController.text.trim(),
-  //         password: passwordController.text.trim()
-  //     );
-  //     Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=> HomeScreen()),);
-  //   } catch (error){
-  //     setState(() {
-  //       errorMessage=error.toString();
-  //     });
-  //   }
-  // }
-
+ 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
